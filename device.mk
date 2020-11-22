@@ -36,6 +36,7 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    init.mt8167.rc \
     fstab.enableswap
 
 # Soong
