@@ -35,6 +35,10 @@ PRODUCT_CHARACTERISTICS := tablet
 PRODUCT_AAPT_CONFIG := xhdpi hdpi mdpi ldpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.mt8167.rc \
